@@ -11,7 +11,7 @@ export default function Start({ setUsername }) {
     <div className="start">
       <input
         className="startInput"
-        placeholder="Enter your Name"
+        placeholder="Enter Your Name"
         ref={inputRef}
       />
       <button className="startButton" onClick={handleClick}>
